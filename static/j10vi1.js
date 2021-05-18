@@ -18,3 +18,19 @@ function jp_01(a,b,c){
     }
 
 }
+var ax =[];
+var ay =[];
+
+function f10vipr1(){
+    let axp = document.getElementById("koor_ax");
+    let ayp = document.getElementById("koor_ay");
+    let x = parseFloat(axp.textContent);
+    let y = parseFloat(ayp.textContent);
+    console.log(axp.textContent);
+    console.log(ayp.textContent);
+    console.log(x,y);
+    ax.push(x);
+    ay.push(y);
+    console.log(ax);
+    console.log(ay);
+}

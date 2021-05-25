@@ -22,15 +22,34 @@ var ax =[];
 var ay =[];
 
 function f10vipr1(){
-    let axp = document.getElementById("koor_ax");
-    let ayp = document.getElementById("koor_ay");
-    let x = parseFloat(axp.textContent);
-    let y = parseFloat(ayp.textContent);
-    console.log(axp.textContent);
-    console.log(ayp.textContent);
+    let axp = document.getElementById("koorax");
+    let ayp = document.getElementById("kooray");
+    let x = parseFloat(axp.value);
+    let y = parseFloat(ayp.value);
+
     console.log(x,y);
     ax.push(x);
     ay.push(y);
     console.log(ax);
     console.log(ay);
+}
+function f10vipr2(){
+    //Ievietojamā ziņa, labāk saņemt to no izsaucēja
+    //funkcijas
+    let t1 = "Šī ir jauna rinda";
+    //Sagatave jaunu tagu ģenerēšanai
+    let s1 = document.getElementById("sar1");
+    //Izveido rindas sagatavi
+    let newLI = document.createElement("li");
+    // Izveido rāmi saturam
+    let newDiv = document.createElement("p");
+    //Izveido satura teksta sagatavi
+    let newContent = document.createTextNode(t1);
+    //Satura rāmī ievieto saturu
+    newDiv.appendChild(newContent);
+    //Saraksta rindā ievietojam satura rāmi 
+    newLI.appendChild(newDiv); 
+    //Pievienojam sarakstam jaunu rindu
+    s1.appendChild(newLI);
+
 }

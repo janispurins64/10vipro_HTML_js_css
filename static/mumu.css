@@ -10,21 +10,24 @@ button.poga_1{
     /* visi button elementi, kas ir iekš div elementa ar klasi "burti", kas savukārt ir iekš elementa ar id=konteiners */
     margin: 10pt auto;
     background-color: Beige;
-    width: 100px;
-    height: 30px;
+    width: 50px;
+    height: 50px;
     text-align: center;
     font-family: sans-serif;
-    font-size: 10pt;
+    font-size: 30pt;
     font-weight: bold;
   }
-  button.poga_nos{
+button.poga_nos{
     /* visi button elementi, kas ir iekš div elementa ar klasi "burti", kas savukārt ir iekš elementa ar id=konteiners */
     margin: 10pt auto;
-    background-color: rgb(160, 9, 9);
-    width: 100px;
-    height: 30px;
+    background-color: rgb(241, 113, 113);
+    width: 50px;
+    height: 50px;
     text-align: center;
     font-family: sans-serif;
-    font-size: 10pt;
+    font-size: 30pt;
     font-weight: bold;
+  }
+  .s11vi{
+      background-image: url('Avarijas-trijsturis1.jpg');
   }
